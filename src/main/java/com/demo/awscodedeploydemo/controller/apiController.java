@@ -16,7 +16,7 @@ public class apiController {
     @GetMapping("/trigger-error")
     public String triggerError() {
         // Intentional runtime error (division by zero)
-        int result = 10 / 0;
+        int result = 10 / 0;khkhj
 
         {
             return "This endpoint triggers a runtime error";
