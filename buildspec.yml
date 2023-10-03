@@ -7,7 +7,7 @@ phases:
       java:  corretto17
   build:
     commands:
-      - ./gradlew bootJar --info
+      - ./gradlew bootJar
   post_build:
     commands:
       - echo Build completed
